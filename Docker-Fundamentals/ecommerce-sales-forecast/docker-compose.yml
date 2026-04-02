@@ -1,0 +1,7 @@
+
+services:
+  sales-api:
+    build: .
+    container_name: sales-api
+    ports:
+      - "8080:8000"
